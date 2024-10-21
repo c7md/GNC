@@ -7,7 +7,7 @@ A simple command-line tool written in Go to check the availability of GitHub use
 - Check multiple usernames at once from a text file.
 - Outputs whether each username is available or taken.
 - Built with Go for efficiency and simplicity.
-- No virus at all, 100% Open-Sourced.
+- Fast, 100% Open Sourced and Safe.
 
 ## Prerequisites
 
