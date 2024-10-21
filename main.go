@@ -1,5 +1,3 @@
-// CM
-
 package main
 
 import (
@@ -18,20 +16,16 @@ func checkUsernameAvailability(username string) (bool, error) {
 	defer resp.Body.Close()
 
 	if resp.StatusCode == http.StatusNotFound {
-		return true, nil // user is available
+		return true, nil // Username is available
 	} else if resp.StatusCode == http.StatusOK {
-		return false, nil // user not available
+		return false, nil // Username exists
 	}
 	return false, fmt.Errorf("unexpected status code: %d", resp.StatusCode)
 }
 
 func main() {
-	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run main.go <filename>")
-		return
-	}
-
-	fileName := os.Args[1]
+	// Specify the usernames.txt file directly
+	fileName := "usernames.txt"
 	file, err := os.Open(fileName)
 	if err != nil {
 		fmt.Println("Error:", err)
