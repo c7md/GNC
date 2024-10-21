@@ -18,14 +18,9 @@ A simple command-line tool written in Go to check the availability of GitHub use
 
 2. Put the .exe you have just downloaded in a folder, you can name the folder however you like.
 
-3. In that same folder put the usernames you want to check, like so:
-name1
-name2
-name3
-name4
-[ ONLY ONE PER LINE]
-Make sure you save this file.
+3. In that same folder make a file named "usernames.txt" [ IT MUST BE NAMED LIKE THAT ]
+Then inside of that put each name you want to check. [ ONLY ONE NAME PER LINE, DONT PUT YOUR NAMES IN ONE LINE, ONLY PUT ONE NAME EACH LINE ]
 
-4. After that you may run the GUC-v1.exe you just downloaded and it should start checking the availability of each name.
+5. After that you may run the GUC-v1.exe you just downloaded and it should start checking the availability of each name.
 
 
