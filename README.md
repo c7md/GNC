@@ -14,14 +14,18 @@ A simple command-line tool written in Go to check the availability of GitHub use
 - [Go](https://golang.org/dl/) installed on your machine.
 
 ## Usage
+1. Donwload download the .exe from the [releases](https://github.com/c7md/GUC/releases/tag/v1) page.
 
-1. Clone the repository:
+2. Put the .exe you have just downloaded in a folder, you can name the folder however you like.
 
-   ```bash
-   git clone https://github.com/c7md/GUC.git
-   cd GUC
+3. In that same folder put the usernames you want to check, like so:
+name1
+name2
+name3
+name4
+[ ONLY ONE PER LINE]
+Make sure you save this file.
 
-2. You can download the .exe from the [releases](https://golang.org/dl/) page.
+4. After that you may run the GUC-v1.exe you just downloaded and it should start checking the availability of each name.
 
 
-3. You can aswell just copy my code or download and run [go run .\main.go]
