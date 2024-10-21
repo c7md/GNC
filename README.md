@@ -24,3 +24,4 @@ A simple command-line tool written in Go to check the availability of GitHub use
 2. You can download the .exe from the [releases](https://golang.org/dl/) page.
 
 
+3. You can aswell just copy my code or download and run [go run .\main.go]
